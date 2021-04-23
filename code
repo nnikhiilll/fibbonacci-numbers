@@ -1,0 +1,32 @@
+# main.py
+def Sequence(n):
+  if n==0 or n==1:
+    return 0
+  if n==2:
+    return 1
+  return Sequence(n-2)+Sequence(n-1)
+  
+#print(Sequence(16))
+
+
+a=0
+b=1
+for i in range(5):
+  q=a+b
+  a=b
+  b=q
+print(a)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
